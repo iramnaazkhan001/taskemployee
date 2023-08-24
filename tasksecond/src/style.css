@@ -1,0 +1,25 @@
+.loginPage {
+    background:url('https://img.freepik.com/free-photo/medium-shot-man-holding-device_23-2149192120.jpg?w=1480&t=st=1692798459~exp=1692799059~hmac=a9cbdce6960dcf58990ece04772afd80c15b5eefafaf51b10bd85f023f74ad00');
+    /* background: url('Images/employee ms.jpeg'); */
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("https://img.freepik.com/free-photo/medium-shot-man-holding-device_23-2149192120.jpg?w=1480&t=st=1692798459~exp=1692799059~hmac=a9cbdce6960dcf58990ece04772afd80c15b5eefafaf51b10bd85f023f74ad00");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.empImg {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
