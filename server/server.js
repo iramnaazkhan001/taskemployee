@@ -11,7 +11,7 @@ const app = express();
 app.use(cors(
     {
         origin: ["http://localhost:3000"],
-        methods: ["POST", "GET", "PUT"],
+        methods: ["POST", "GET", "PUT","DELETE"],
         credentials: true
     }
 ));
@@ -184,6 +184,7 @@ app.post('/create',upload.single('image'), (req, res) => {
         ]
         con.query(sql, [values], (err, result) => {
             if(err) return res.json({Error: "Inside singup query"});
+            res.send(result);
             return res.json({Status: "Success"});
         })
     } )

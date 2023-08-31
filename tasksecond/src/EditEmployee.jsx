@@ -27,7 +27,7 @@ function EditEmployee() {
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		axios.put('http://localhost:8081/update/'+id, data)
+		axios.put('http://localhost:5000/update/'+id, data)
 		.then(res => {
 			if(res.data.Status === "Success") {
 				navigate('/employee')

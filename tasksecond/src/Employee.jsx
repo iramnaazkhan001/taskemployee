@@ -48,11 +48,12 @@ function Employee() {
             </tr>
           </thead>
           <tbody>
+            
             {data.map((employee, index) => {
               return <tr key={index}>
                   <td>{employee.name}</td>
                   <td>{
-                    <img src={`http://localhost:8081/images/`+employee.image} alt="" className='employee_image'/>
+                    <img src={`http://localhost:5000/images/`+employee.image} alt="" className='employee_image'/>
                     }</td>
                   <td>{employee.email}</td>
                   <td>{employee.address}</td>
